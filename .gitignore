@@ -1,0 +1,17 @@
+# Ignore C++ compiled files + input and output folder 
+*.exe *.txt
+
+# Ignore Java compiled class files
+*.class
+
+# macOS system files (if using)
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VS Code settings folders
+.vscode/
+
+# Backup or temp files
+*~
