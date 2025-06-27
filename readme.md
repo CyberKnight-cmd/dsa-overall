@@ -67,7 +67,7 @@ Here is your **final README automation block** to integrate:
 
 ### ✨ **📁 Automation Section for README.md**
 
-````markdown
+
 ---
 
 ## 🤖 **Automation**
