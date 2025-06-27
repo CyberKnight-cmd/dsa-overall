@@ -4,3 +4,6 @@
 [submodule "solved-leetcode-problems"]
 	path = solved-leetcode-problems
 	url = https://github.com/CyberKnight-cmd/solved-leetcode-problems
+[submodule "CPP"]
+	path = CPP
+	url = https://github.com/cyberknight-cmd/cpp-dsa.git
