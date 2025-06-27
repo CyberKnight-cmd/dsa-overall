@@ -155,7 +155,7 @@ This repository acts as my **single source of truth for DSA and CP preparation**
 * To **clone the repository with all submodules**:
 
   ```bash
-  git clone --recurse-submodules <repo-url>
+  git clone --recurse-submodules https://github.com/CyberKnight-cmd/dsa-overall.git
   ```
 
 * If cloned without `--recurse-submodules`, initialize submodules with:
@@ -190,23 +190,8 @@ This repository is **private for personal learning and practice**. Contact for c
 
 ---
 
-### ✅ **End**
+### **End**
 
 > **"Code every day, even if it’s a single line. Consistency compounds."**
 
 ---
-
-✅ **Instructions**
-
-1. Replace all `link-if-public` and `<repo-url>` placeholders as needed.
-2. Save as **README.md** and push:
-
-```bash
-git add README.md
-git commit -m "Add Notes Going Forward section to README"
-git push origin main
-```
-
----
-
-Let me know once done. Next, we will plan your **ML repo setup strategy** and workflows in tomorrow’s focused session.
