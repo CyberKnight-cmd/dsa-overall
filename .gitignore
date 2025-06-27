@@ -1,17 +1,75 @@
-# Ignore C++ compiled files + input and output folder 
-*.exe *.txt
+# ----------------------
+# C++ build artifacts
+# ----------------------
+*.exe
+*.txt
+*.o
+*.out
+*.obj
+*.gch
 
-# Ignore Java compiled class files
+# ----------------------
+# Java build artifacts
+# ----------------------
 *.class
+*.jar
+*.war
 
-# macOS system files (if using)
-.DS_Store
+# ----------------------
+# Python cache and virtualenvs
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
 
-# Windows system files
-Thumbs.db
+# Virtualenvs (if you create local venv folders)
+venv/
+ENV/
+env/
+.venv/
 
-# VS Code settings folders
+# ----------------------
+# Jupyter Notebook checkpoints
+# ----------------------
+.ipynb_checkpoints
+
+# ----------------------
+# VS Code settings
+# ----------------------
 .vscode/
 
+# ----------------------
+# System files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
 # Backup or temp files
+# ----------------------
 *~
+*.swp
+*.swo
+
+# ----------------------
+# Logs and datasets
+# ----------------------
+*.log
+
+# Ignore large dataset or model folders if added later
+data/
+datasets/
+models/
+checkpoints/
+
+# ----------------------
+# Node (if you do JS later)
+# ----------------------
+node_modules/
+
+# ----------------------
+# Environment files (optional)
+# ----------------------
+.env
