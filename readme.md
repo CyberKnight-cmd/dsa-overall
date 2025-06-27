@@ -55,15 +55,67 @@ git push origin main
 
 ---
 
-## 🤖 **Automation**
+Perfect. Let’s **wrap up today with a clean, final README automation section** to reflect your:
 
-✔️ **GitHub Actions workflow** updates submodules daily at **12 AM IST** and commits any changes automatically.
+✅ Submodules usage
+✅ Daily GitHub Actions update
+✅ Commands with explanations
 
-To trigger manually:
-
-* Go to **Actions tab → Update Submodules → Run workflow**
+Here is your **final README automation block** to integrate:
 
 ---
+
+### ✨ **📁 Automation Section for README.md**
+
+````markdown
+---
+
+## 🤖 **Automation**
+
+This repository uses **GitHub Actions** to keep all submodules updated automatically.
+
+✔️ **Daily updates**
+
+- Runs every day at **12 AM IST** (18:00 UTC)
+- Uses a workflow defined in `.github/workflows/update-submodules.yml`
+- Rebases and pushes latest submodule commits
+
+✔️ **Trigger manually**
+
+You can also run it manually anytime:
+
+1. Go to the **Actions tab**
+2. Select **Update Submodules**
+3. Click **“Run workflow”**
+
+✔️ **Commands used internally**
+
+For your reference:
+
+```bash
+# Clone the repo with submodules
+git clone --recurse-submodules https://github.com/CyberKnight-cmd/dsa-overall.git
+
+# Update all submodules to their latest commits
+git submodule update --remote --merge
+
+# Initialize submodules if cloned without --recurse-submodules
+git submodule update --init --recursive
+
+# Commit submodule pointer changes
+git add .
+git commit -m "Update submodules"
+git push origin main
+````
+
+---
+
+### ⚠️ **Note**
+
+If you add **new submodules**, update your GitHub Actions workflow accordingly if needed.
+
+---
+
 
 ## 🚀 **Current Goals**
 
