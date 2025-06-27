@@ -2,7 +2,6 @@
 # C++ build artifacts
 # ----------------------
 *.exe
-*.txt
 *.o
 *.out
 *.obj
@@ -12,11 +11,9 @@
 # Java build artifacts
 # ----------------------
 *.class
-*.jar
-*.war
 
 # ----------------------
-# Python cache and virtualenvs
+# Python cache files
 # ----------------------
 __pycache__/
 *.py[cod]
@@ -24,27 +21,16 @@ __pycache__/
 *.pyd
 *.so
 
-# Virtualenvs (if you create local venv folders)
-venv/
-ENV/
-env/
-.venv/
+# ----------------------
+# Input/output files often used in CP testing
+# ----------------------
+input.txt
+output.txt
 
 # ----------------------
-# Jupyter Notebook checkpoints
-# ----------------------
-.ipynb_checkpoints
-
-# ----------------------
-# VS Code settings
+# VS Code settings (optional)
 # ----------------------
 .vscode/
-
-# ----------------------
-# System files
-# ----------------------
-.DS_Store
-Thumbs.db
 
 # ----------------------
 # Backup or temp files
@@ -54,22 +40,12 @@ Thumbs.db
 *.swo
 
 # ----------------------
-# Logs and datasets
+# System files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Logs or debug files
 # ----------------------
 *.log
-
-# Ignore large dataset or model folders if added later
-data/
-datasets/
-models/
-checkpoints/
-
-# ----------------------
-# Node (if you do JS later)
-# ----------------------
-node_modules/
-
-# ----------------------
-# Environment files (optional)
-# ----------------------
-.env
