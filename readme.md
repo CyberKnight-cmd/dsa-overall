@@ -13,6 +13,7 @@ DSA/
 ├── CPP/                       # C++ codes for CP and DSA courses
 ├── JAVA/                      # Java Bootcamp codes (submodule)
 ├── solved-leetcode-problems/  # LeetCode solutions (submodule)
+├── solved-codingninjas-problems/  # Coding Ninja solutions (submodule)
 └── .github/workflows/         # GitHub Actions for automation
 ```
 
@@ -27,6 +28,7 @@ This repository uses **Git submodules** to include external repositories cleanly
 | [C++](https://github.com/CyberKnight-cmd/cpp-dsa)                                                                   | C++ DSA and CP codes.                        |
 | [Java Bootcamp](https://github.com/CyberKnight-cmd/DSA-Bootcamp-Java)                                                         | Contains Java DSA course codes               |
 | [Solved LeetCode Problems](https://github.com/CyberKnight-cmd/solved-leetcode-problems) | Auto-pushed LeetCode solutions using LeetHub |
+| [Solved CodingNinjas Problems](https://github.com/CyberKnight-cmd/solved-codingninjas-problems.git) | Coding-Ninja solutions |
 
 ---
 
@@ -111,6 +113,7 @@ If you add **new submodules**, update your GitHub Actions workflow accordingly i
 * [x] Setup clean repo structure
 * [x] Add Java Bootcamp submodule
 * [x] Integrate LeetHub automated repo
+* [x] Integrate CodingNinjas semi-automated repo
 * [x] Configure GitHub Actions for daily updates
 * [ ] Add Python DSA folder
 * [ ] Integrate DSA written notes
