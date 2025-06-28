@@ -7,3 +7,6 @@
 [submodule "CPP"]
 	path = CPP
 	url = https://github.com/cyberknight-cmd/cpp-dsa.git
+[submodule "solved-codingninjas-problems"]
+	path = solved-codingninjas-problems
+	url = https://github.com/CyberKnight-cmd/solved-codingninjas-problems.git
