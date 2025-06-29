@@ -10,3 +10,6 @@
 [submodule "solved-codingninjas-problems"]
 	path = solved-codingninjas-problems
 	url = https://github.com/CyberKnight-cmd/solved-codingninjas-problems.git
+[submodule "Git"]
+	path = Git
+	url = https://github.com/CyberKnight-cmd/Git
